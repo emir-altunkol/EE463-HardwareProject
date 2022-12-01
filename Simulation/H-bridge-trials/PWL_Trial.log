@@ -1,0 +1,23 @@
+Circuit: * C:\Users\isikemir\Desktop\Courses\EE463\TermProject\EE463-HardwareProject\Simulation\H-bridge-trials\PWL_Trial.asc
+
+V1: Removing PWL point (1e-009,0)
+V1: Removing PWL point (2.0753e-006,0)
+.OP point found by inspection.
+
+Date: Thu Dec 01 15:14:42 2022
+Total elapsed time: 0.129 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 28366
+traniter = 28366
+tranpoints = 14184
+accept = 14184
+rejected = 0
+matrix size = 2
+fillins = 0
+solver = Normal
+Matrix Compiler1: off  [0.0]/0.0/0.0
+Matrix Compiler2: 96 bytes object code size  0.0/0.0/[0.0]
+
