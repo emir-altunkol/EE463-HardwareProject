@@ -1,0 +1,54 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[pdftex]{graphicx}
+\usepackage{url} 
+\usepackage[bookmarks, colorlinks=false, pdfborder={0 0 0}, pdftitle={<pdf title here>}, pdfauthor={<author's name here>}, pdfsubject={<subject here>}, pdfkeywords={<keywords here>}]{hyperref} 
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{amsmath} % for math and matrix formulations.
+\usepackage[section]{placeins}
+
+% Paper margins etc.
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={160mm,257mm},
+ left=25mm,
+ top=25mm
+ }
+
+\begin{document}
+
+\input{Title_page}
+
+\pagenumbering{arabic}
+
+\tableofcontents
+
+\newpage
+\listoffigures
+\listoftables
+
+\newpage
+\input{Introduction.tex}
+
+\newpage
+\input{Design_decision.tex}
+
+\newpage
+\input{Computer_simulations.tex}
+
+\newpage
+\input{Component_selection.tex}
+
+\newpage
+\input{Conclusion.tex}
+
+\newpage
+\bibliographystyle{IEEEtran}
+\bibliography{ref.bib}
+
+%\newpage
+%\input{Appendix.tex}
+
+\end{document}
