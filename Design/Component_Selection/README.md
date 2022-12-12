@@ -1,10 +1,3 @@
-# EE463-HardwareProject
+## Component List
 
-
-This is a repository for the term project of the EE463 Static Power Conversion I course given by METU EEE department. It is a DC motor drive project, whose details are included in the [course repository](https://github.com/odtu/ee463).
-
-## Team Members (Hard-Time Regulators): 
-
-* Işık Emir Altunkol
-* Fatih Erden
-* İsmail Macit
+The spreadsheet link for the current state of the component list is given [here](https://docs.google.com/spreadsheets/d/14lQKjTt1QYeIo84nUDRivLAAxynFq0hbY2szFumdkH8/edit?usp=sharing).
