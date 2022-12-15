@@ -1,0 +1,63 @@
+Circuit: * C:\Users\fatih\Desktop\Power Systems\EE463-HardwareProject\Simulation\H-bridge-trials\Motor_Modelling\Motor_Modelling.asc
+
+V_dc: Removing PWL point (1e-009,180)
+WARNING: Node N003 is floating.
+WARNING: Node NC_02 is floating.
+
+WARNING: Less than two connections to node NC_01.  This node is used by V5.
+WARNING: Less than two connections to node NC_02.  This node is used by V5.
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 2.866e-005 to 2.8665e-005
+Heightened Def Con from 7.866e-005 to 7.8665e-005
+Heightened Def Con from 0.00015 to 0.000150004
+Heightened Def Con from 0.00027866 to 0.000278665
+Heightened Def Con from 0.00035 to 0.000350004
+Heightened Def Con from 0.0004 to 0.000400004
+Heightened Def Con from 0.00042866 to 0.000428665
+Heightened Def Con from 0.00052866 to 0.000528665
+Heightened Def Con from 0.00055 to 0.000550004
+Heightened Def Con from 0.0006 to 0.000600004
+Heightened Def Con from 0.00062866 to 0.000628665
+Heightened Def Con from 0.00072866 to 0.000728665
+Heightened Def Con from 0.00077866 to 0.000778665
+Heightened Def Con from 0.0008 to 0.000800004
+Heightened Def Con from 0.00082866 to 0.000828665
+Heightened Def Con from 0.00095 to 0.000950004
+Heightened Def Con from 0.0175787 to 0.0175787
+Heightened Def Con from 0.0183287 to 0.0183287
+Heightened Def Con from 0.0190287 to 0.0190287
+Heightened Def Con from 0.01975 to 0.01975
+Heightened Def Con from 0.02035 to 0.02035
+Heightened Def Con from 0.0224 to 0.0224
+Heightened Def Con from 0.0234 to 0.0234
+Heightened Def Con from 0.0234287 to 0.0234287
+Heightened Def Con from 0.0251 to 0.0251
+Heightened Def Con from 0.02605 to 0.02605
+Heightened Def Con from 0.0280287 to 0.0280287
+Heightened Def Con from 0.03145 to 0.03145
+Heightened Def Con from 0.0334287 to 0.0334287
+Heightened Def Con from 0.0426 to 0.0426
+Heightened Def Con from 0.0489287 to 0.0489287
+Heightened Def Con from 0.0559787 to 0.0559787
+Heightened Def Con from 0.0564787 to 0.0564787
+Heightened Def Con from 0.06055 to 0.06055
+Heightened Def Con from 0.743779 to 0.743779
+Heightened Def Con from 1.4835 to 1.4835
+
+Date: Thu Dec 15 20:48:33 2022
+Total elapsed time: 117.181 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 31891541
+traniter = 31891532
+tranpoints = 7936994
+accept = 5938688
+rejected = 1998342
+matrix size = 42
+fillins = 28
+solver = Normal
+Matrix Compiler1: 3.04 KB object code size  0.5/0.3/[0.2]
+Matrix Compiler2: 3.51 KB object code size  0.3/0.4/[0.2]
+
