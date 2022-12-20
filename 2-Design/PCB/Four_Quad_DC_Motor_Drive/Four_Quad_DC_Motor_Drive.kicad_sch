@@ -63,4 +63,10 @@
     (path "/562a4c0f-3180-4545-bb1e-8789c18066eb" (page "4"))
     (path "/e96e6ae8-7a9c-4a62-9b76-177f281207af" (page "5"))
   )
+
+  (symbol_instances
+    (path "/e96e6ae8-7a9c-4a62-9b76-177f281207af/c85b5131-d45f-4d34-b3c0-f1110780402b"
+      (reference "U?") (unit 1) (value "SQL50") (footprint "")
+    )
+  )
 )
