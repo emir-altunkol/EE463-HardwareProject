@@ -8,26 +8,26 @@
   )
 
 
-  (sheet (at 34.29 140.97) (size 59.69 35.56) (fields_autoplaced)
+  (sheet (at 34.29 88.9) (size 76.2 66.04) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 562a4c0f-3180-4545-bb1e-8789c18066eb)
-    (property "Sheet name" "Terminals" (id 0) (at 34.29 140.2584 0)
+    (property "Sheet name" "Terminals" (id 0) (at 34.29 88.1884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "Terminals.kicad_sch" (id 1) (at 34.29 177.1146 0)
+    (property "Sheet file" "Terminals.kicad_sch" (id 1) (at 34.29 155.5246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 181.61 92.71) (size 74.93 55.88) (fields_autoplaced)
+  (sheet (at 128.27 88.9) (size 81.28 66.04) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 693428ae-6de1-47ce-82ee-55f0d0aa23dc)
-    (property "Sheet name" "Driver" (id 0) (at 181.61 91.9984 0)
+    (property "Sheet name" "Driver" (id 0) (at 128.27 88.1884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "Driver.kicad_sch" (id 1) (at 181.61 149.1746 0)
+    (property "Sheet file" "Driver.kicad_sch" (id 1) (at 128.27 155.5246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -44,14 +44,14 @@
     )
   )
 
-  (sheet (at 189.23 31.75) (size 59.69 35.56) (fields_autoplaced)
+  (sheet (at 128.27 21.59) (size 81.28 55.88) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid e96e6ae8-7a9c-4a62-9b76-177f281207af)
-    (property "Sheet name" "Converters" (id 0) (at 189.23 31.0384 0)
+    (property "Sheet name" "Converters" (id 0) (at 128.27 20.8784 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "Converters.kicad_sch" (id 1) (at 189.23 67.8946 0)
+    (property "Sheet file" "Converters.kicad_sch" (id 1) (at 128.27 78.0546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -65,6 +65,30 @@
   )
 
   (symbol_instances
+    (path "/e96e6ae8-7a9c-4a62-9b76-177f281207af/abcf0e50-70ce-461b-8160-4dc7592eb878"
+      (reference "C?") (unit 1) (value "470uF") (footprint "")
+    )
+    (path "/562a4c0f-3180-4545-bb1e-8789c18066eb/07e01225-caa5-472c-bcc7-bddaed3e2cfe"
+      (reference "J?") (unit 1) (value "4mm_banana") (footprint "")
+    )
+    (path "/562a4c0f-3180-4545-bb1e-8789c18066eb/4041fdd9-73b0-4372-bcac-3e5150ff4421"
+      (reference "J?") (unit 1) (value "4mm_banana") (footprint "")
+    )
+    (path "/562a4c0f-3180-4545-bb1e-8789c18066eb/5e44c84e-9aff-4be1-a392-cecfed8b2fdf"
+      (reference "J?") (unit 1) (value "4mm_banana") (footprint "")
+    )
+    (path "/562a4c0f-3180-4545-bb1e-8789c18066eb/7f43cec7-e0cc-45a4-a352-542a84245111"
+      (reference "J?") (unit 1) (value "4mm_banana") (footprint "")
+    )
+    (path "/562a4c0f-3180-4545-bb1e-8789c18066eb/91febcc0-9806-45f8-a792-06eebb395735"
+      (reference "J?") (unit 1) (value "4mm_banana") (footprint "")
+    )
+    (path "/562a4c0f-3180-4545-bb1e-8789c18066eb/a0c9fce5-46ec-475e-9800-1b9103ff7fe0"
+      (reference "J?") (unit 1) (value "4mm_banana") (footprint "")
+    )
+    (path "/562a4c0f-3180-4545-bb1e-8789c18066eb/fd036163-cad0-4344-8f5c-5975c7793465"
+      (reference "J?") (unit 1) (value "4mm_banana") (footprint "")
+    )
     (path "/e96e6ae8-7a9c-4a62-9b76-177f281207af/c85b5131-d45f-4d34-b3c0-f1110780402b"
       (reference "U?") (unit 1) (value "SQL50") (footprint "")
     )
