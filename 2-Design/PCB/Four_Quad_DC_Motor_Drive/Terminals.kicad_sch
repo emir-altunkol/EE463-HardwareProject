@@ -150,7 +150,7 @@
     (uuid 5e44c84e-9aff-4be1-a392-cecfed8b2fdf)
     (property "Reference" "J1" (id 0) (at 73.66 46.99 0))
     (property "Value" "4mm_banana" (id 1) (at 73.66 49.53 0))
-    (property "Footprint" "" (id 2) (at 73.66 54.61 0)
+    (property "Footprint" "ee463_footprint_lib:4mm_banana" (id 2) (at 73.66 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 73.66 54.61 0)
