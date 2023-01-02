@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 3.2,
-          "width": 3.2
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,10 +45,16 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.09999999999999999
+          "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -112,8 +118,16 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        1.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -333,7 +347,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MOSFET_Module_2_Layers.kicad_pro",
+    "filename": "Controller_Module.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -351,6 +365,66 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 1.0,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Hand_Print",
+        "nets": [
+          "+3V3",
+          "+5V",
+          "GND",
+          "GPIO_INPUT_D",
+          "Gen_mode",
+          "I_sense",
+          "I_set",
+          "Net-(Pot_I_Set1-Pad2)",
+          "Q1_PWM",
+          "Q2_PWM",
+          "Q3_PWM",
+          "Q4_PWM",
+          "Q5_PWM",
+          "Q6_PWM",
+          "Soft_st",
+          "V_sense",
+          "unconnected-(J1-Pad1)",
+          "unconnected-(J2-Pad1)",
+          "unconnected-(J3-Pad1)",
+          "unconnected-(J4-Pad1)",
+          "unconnected-(J5-Pad1)",
+          "unconnected-(J6-Pad1)",
+          "unconnected-(STM32F103C8T1-Pad1)",
+          "unconnected-(STM32F103C8T1-Pad10)",
+          "unconnected-(STM32F103C8T1-Pad11)",
+          "unconnected-(STM32F103C8T1-Pad12)",
+          "unconnected-(STM32F103C8T1-Pad13)",
+          "unconnected-(STM32F103C8T1-Pad14)",
+          "unconnected-(STM32F103C8T1-Pad15)",
+          "unconnected-(STM32F103C8T1-Pad2)",
+          "unconnected-(STM32F103C8T1-Pad21)",
+          "unconnected-(STM32F103C8T1-Pad22)",
+          "unconnected-(STM32F103C8T1-Pad23)",
+          "unconnected-(STM32F103C8T1-Pad24)",
+          "unconnected-(STM32F103C8T1-Pad3)",
+          "unconnected-(STM32F103C8T1-Pad33)",
+          "unconnected-(STM32F103C8T1-Pad34)",
+          "unconnected-(STM32F103C8T1-Pad35)",
+          "unconnected-(STM32F103C8T1-Pad36)",
+          "unconnected-(STM32F103C8T1-Pad4)",
+          "unconnected-(STM32F103C8T1-Pad9)"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
@@ -412,7 +486,7 @@
   },
   "sheets": [
     [
-      "c746fbd0-4308-4f40-a4cb-9f37c4115694",
+      "55992e35-fe7b-468a-9b7a-1e4dc931b904",
       ""
     ]
   ],

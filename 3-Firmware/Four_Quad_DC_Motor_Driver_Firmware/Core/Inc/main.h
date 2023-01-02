@@ -61,17 +61,19 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define PWM5_Pin GPIO_PIN_0
 #define PWM5_GPIO_Port GPIOA
-#define I_SENSE_Pin GPIO_PIN_1
-#define I_SENSE_GPIO_Port GPIOA
+#define PWM6_Pin GPIO_PIN_1
+#define PWM6_GPIO_Port GPIOA
 #define I_SET_Pin GPIO_PIN_2
 #define I_SET_GPIO_Port GPIOA
-#define GEN_MODE_Pin GPIO_PIN_3
+#define I_SENSE_Pin GPIO_PIN_3
+#define I_SENSE_GPIO_Port GPIOA
+#define GEN_MODE_Pin GPIO_PIN_4
 #define GEN_MODE_GPIO_Port GPIOA
-#define SOFT_START_Pin GPIO_PIN_4
+#define SOFT_START_Pin GPIO_PIN_5
 #define SOFT_START_GPIO_Port GPIOA
-#define V_SENSE_Pin GPIO_PIN_5
+#define V_SENSE_Pin GPIO_PIN_6
 #define V_SENSE_GPIO_Port GPIOA
-#define GPIO_INPUT_D_Pin GPIO_PIN_6
+#define GPIO_INPUT_D_Pin GPIO_PIN_7
 #define GPIO_INPUT_D_GPIO_Port GPIOA
 #define PWM1_Pin GPIO_PIN_8
 #define PWM1_GPIO_Port GPIOA

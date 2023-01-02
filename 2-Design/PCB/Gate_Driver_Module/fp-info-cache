@@ -1,4 +1,4 @@
-19826687793206044
+19828360363621878
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84510,6 +84510,13 @@ SQL50
 0
 5
 5
+ee463_footprint_lib
+TO-247-3_Horizontal_TabDown_ee463
+TO-247-3, Horizontal, RM 5.45mm, see https://toshiba.semicon-storage.com/us/product/mosfet/to-247-4l.html
+TO-247-3 Horizontal RM 5.45mm
+0
+3
+3
 ee463_footprint_lib
 blue_pill
 
