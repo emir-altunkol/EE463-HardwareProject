@@ -367,7 +367,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Gate_Driver_Module.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
