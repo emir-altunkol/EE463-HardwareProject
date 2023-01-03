@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\isikemir\Desktop\Courses\EE463\TermProject\EE463-HardwareProject\2-Design\PCB\Gate_Driver_Module\Gate_Driver_Module.kicad_sch</source>
+    <date>1/4/2023 12:27:51 AM</date>
+    <tool>Eeschema (6.0.9)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Gate_Driver_Module.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_4x5.4</footprint>
+      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Gate_Driver_Module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d5e55a6-9259-481f-a970-5a6c82e212d5</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Gate_Driver_Module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70f507b1-8d48-4e73-8da7-ccd584cb230b</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Gate_Driver_Module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f63d7fa-8857-4584-bfde-0a63b4259e32</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Gate_Driver_Module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec4097bd-0d32-4bd2-92bb-180143faf12b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Gate_Driver_Module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51285777-81a3-43b6-9a94-dfa48d9abf79</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>470-330-220-100R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Gate_Driver_Module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18a5f8d6-a2fb-43cb-bab5-732d0df75ee1</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>680-470-330-220R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Gate_Driver_Module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2418fc4e-2563-4153-a48d-fbafff8c28a6</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1kR, 0.25W</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Gate_Driver_Module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58e27867-0734-4ab3-93d8-ebb346a967a5</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ROE-0512S</value>
+      <footprint>ee463_footprint_lib:ROE-0512S</footprint>
+      <libsource lib="ee463_symbol_library" part="ROE-0512S" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Gate_Driver_Module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33cdb0cc-6d22-4743-9958-cf0e61104689</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LTV-817</value>
+      <footprint>Package_DIP:SMDIP-4_W7.62mm</footprint>
+      <datasheet>http://www.us.liteon.com/downloads/LTV-817-827-847.PDF</datasheet>
+      <libsource lib="Isolator" part="LTV-817" description="DC Optocoupler, Vce 35V, CTR 50%, DIP-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Gate_Driver_Module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8135769e-8054-4464-99f1-f8086d306cff</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TC4421A</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001420F.pdf</datasheet>
+      <libsource lib="Driver_FET" part="TC4421" description="9A High-Speed inverting MOSFET Driver"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Gate_Driver_Module.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a41d7a1a-9f1a-44d5-8c5f-c210f6c6d53e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small_US">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_FET" part="TC4421">
+      <description>9A High-Speed inverting MOSFET Driver</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001420F.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">TC4421</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001420F.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="INPUT" type="input"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="~{OUTPUT}" type="output"/>
+        <pin num="7" name="~{OUTPUT}" type="output"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="LTV-817">
+      <description>DC Optocoupler, Vce 35V, CTR 50%, DIP-4</description>
+      <docs>http://www.us.liteon.com/downloads/LTV-817-827-847.PDF</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTV-817</field>
+        <field name="Footprint">Package_DIP:DIP-4_W7.62mm</field>
+        <field name="Datasheet">http://www.us.liteon.com/downloads/LTV-817-827-847.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ee463_symbol_library" part="ROE-0512S">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ROE-0512S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin-" type="input"/>
+        <pin num="2" name="Vin+" type="input"/>
+        <pin num="3" name="Vout-" type="input"/>
+        <pin num="4" name="Vout+" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Driver_FET">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Driver_FET.kicad_sym</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Isolator.kicad_sym</uri>
+    </library>
+    <library logical="ee463_symbol_library">
+      <uri>C:\Users\isikemir\Desktop\Courses\EE463\TermProject\EE463-HardwareProject\2-Design\PCB\Gate_Driver_Module/ee463_symbol_library.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="Vin+" pintype="input"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="Vin-" pintype="input"/>
+      <node ref="U2" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="GND_12">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="Vout-" pintype="input"/>
+      <node ref="U2" pin="3" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="Vout+" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="5" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="INPUT" pintype="input"/>
+    </net>
+    <net code="7" name="QG">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="~{OUTPUT}" pintype="output"/>
+      <node ref="U3" pin="7" pinfunction="~{OUTPUT}" pintype="output"/>
+    </net>
+    <net code="8" name="Q_PWM">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="10" name="unconnected-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(U3-Pad3)">
+      <node ref="U3" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
