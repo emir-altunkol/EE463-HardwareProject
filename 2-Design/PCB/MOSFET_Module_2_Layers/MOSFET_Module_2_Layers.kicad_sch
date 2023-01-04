@@ -661,7 +661,7 @@
     (in_bom yes) (on_board yes)
     (uuid 29eeb663-c492-48ee-ab0b-e42c4a1484fa)
     (property "Reference" "R1" (id 0) (at 97.79 62.23 90))
-    (property "Value" "??" (id 1) (at 97.79 64.77 90))
+    (property "Value" "22-10-5R" (id 1) (at 97.79 64.77 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 97.79 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -714,7 +714,7 @@
     (in_bom yes) (on_board yes)
     (uuid 5165f9d8-741f-41f3-b236-568ca68fbfa8)
     (property "Reference" "R2" (id 0) (at 97.79 88.9 90))
-    (property "Value" "??" (id 1) (at 97.79 91.44 90))
+    (property "Value" "22-10-5R" (id 1) (at 97.79 91.44 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 97.79 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -938,10 +938,10 @@
       (reference "Q2") (unit 1) (value "SPW47N60") (footprint "ee463_footprint_lib:TO-247-3_Horizontal_TabDown_ee463")
     )
     (path "/29eeb663-c492-48ee-ab0b-e42c4a1484fa"
-      (reference "R1") (unit 1) (value "??") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R1") (unit 1) (value "22-10-5R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/5165f9d8-741f-41f3-b236-568ca68fbfa8"
-      (reference "R2") (unit 1) (value "??") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R2") (unit 1) (value "22-10-5R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/e41fcf60-9ad1-4303-8d2f-b7831fcb0135"
       (reference "R3") (unit 1) (value "10kR") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
