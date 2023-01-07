@@ -41,7 +41,12 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-
+#define internal_clock 72000000 // Internal clock is configured to 72MHz
+#define ADC_BUF_LEN 4096
+#define START_THRESHOLD 512
+#define START_COUNT_MAX 72000*5 // 5 seconds soft start
+#define ADC_AVE_SAMPLE 100
+#define  MAX_ARMATURE_CURRENT 17
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/
@@ -59,12 +64,13 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define I_SENSE_Pin GPIO_PIN_0
-#define I_SENSE_GPIO_Port GPIOA
-#define I_SET_Pin GPIO_PIN_1
+#define I_SET_Pin GPIO_PIN_0
 #define I_SET_GPIO_Port GPIOA
-#define SOFT_START_Pin GPIO_PIN_2
-#define SOFT_START_GPIO_Port GPIOA
+#define I_SENSE_Pin GPIO_PIN_1
+#define I_SENSE_GPIO_Port GPIOA
+#define SOFT_ST_Pin GPIO_PIN_2
+#define SOFT_ST_GPIO_Port GPIOA
+#define SOFT_ST_EXTI_IRQn EXTI2_IRQn
 #define GEN_MODE_Pin GPIO_PIN_3
 #define GEN_MODE_GPIO_Port GPIOA
 #define GPIO_IN_D_Pin GPIO_PIN_4

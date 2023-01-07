@@ -42,11 +42,46 @@
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
 
+float pre_prop_error = 0;
+float int_error = 0;
+float I_start = 0;
+float start_count = 0;
+
+// Define PID parameters
+uint32_t Kp = 0;
+uint32_t Kd = 0;
+uint32_t Ki = 0;
+float delta_t = 1/72000; // Control loop period, must be equal to TIM4 interrupt frequency (72KHz)
+
+// Define the variables to store input values
+float I_sense = 0;	// Measured armature current
+float I_set = 0;  // Set value for armature current
+float I_sense_av = 0;  // Measured armature current average
+float I_set_av = 0; // Set value moving average
+float I_sense_temp = 0; // Defined for calculation purposes
+float I_set_temp = 0; // Defined for calculation purposes
+uint32_t Gen_mode = 0; // Generator mode boolean (active low)
+uint32_t Soft_st = 0;  // Latching soft start
+uint32_t Soft_st_done = 0; // Enable if the motor is already started
+uint32_t forward = 1;  // 1 for forward motoring, 0 for reverse motoring
+
+// Define duty variable
+uint32_t duty = 0; // will be written to TIM1->CCR1 & TIM1->CCR2
+
+// ADC buffer variables
+uint16_t adc_buf_set[ADC_AVE_SAMPLE];
+uint16_t adc_buf_sense[ADC_AVE_SAMPLE];
+uint16_t adc_ctr = 0;
+
+// Tripping boolean
+uint16_t tripped = 0;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN PFP */
-
+extern uint16_t ADC1_Read();
+extern uint16_t ADC2_Read();
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -57,6 +92,8 @@
 /* External variables --------------------------------------------------------*/
 extern DMA_HandleTypeDef hdma_adc1;
 extern ADC_HandleTypeDef hadc1;
+extern ADC_HandleTypeDef hadc2;
+extern TIM_HandleTypeDef htim4;
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -201,6 +238,33 @@ void SysTick_Handler(void)
 /******************************************************************************/
 
 /**
+  * @brief This function handles EXTI line2 interrupt.
+  */
+void EXTI2_IRQHandler(void)
+{
+  /* USER CODE BEGIN EXTI2_IRQn 0 */
+	// Enable soft start mode if it is the first time
+	if(Soft_st_done == 0){
+		if(I_set > 3){
+			Soft_st = 1;
+			I_start = I_set;
+			forward = 1;
+		}
+		if(I_set < 3){
+			Soft_st = 1;
+			I_start = -I_set;
+			forward = 0;
+		}
+	}
+
+  /* USER CODE END EXTI2_IRQn 0 */
+  HAL_GPIO_EXTI_IRQHandler(SOFT_ST_Pin);
+  /* USER CODE BEGIN EXTI2_IRQn 1 */
+
+  /* USER CODE END EXTI2_IRQn 1 */
+}
+
+/**
   * @brief This function handles DMA1 channel1 global interrupt.
   */
 void DMA1_Channel1_IRQHandler(void)
@@ -223,9 +287,164 @@ void ADC1_2_IRQHandler(void)
 
   /* USER CODE END ADC1_2_IRQn 0 */
   HAL_ADC_IRQHandler(&hadc1);
+  HAL_ADC_IRQHandler(&hadc2);
   /* USER CODE BEGIN ADC1_2_IRQn 1 */
 
   /* USER CODE END ADC1_2_IRQn 1 */
+}
+
+/**
+  * @brief This function handles TIM4 global interrupt.
+  */
+void TIM4_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM4_IRQn 0 */
+
+		if(tripped == 1){
+			duty = 0;
+
+			if(I_sense_av < -0.5 || I_sense_av > 0.5){
+				TIM1->CCR3 = 0;
+			}
+			Soft_st = 0;
+			Soft_st_done = 2; // TRIPPED AT THIS POINT
+		}
+
+		// ------------ ADC READING ---------------- //
+		// Check if generator mode
+		Gen_mode = HAL_GPIO_ReadPin(GPIOA, GEN_MODE_Pin);
+
+		// Read the ADCs by creating a ring buffer
+		if(adc_ctr == ADC_AVE_SAMPLE){
+			adc_ctr = 0;
+
+		}
+		adc_buf_sense[adc_ctr] = ADC2_Read();
+		adc_buf_set[adc_ctr] = ADC1_Read();
+
+		// Momentary values, in Amps
+		I_sense = (30/4096)*(adc_buf_sense[adc_ctr] - 2048);
+		I_sense_temp = (30/4096)*(adc_buf_sense[(adc_ctr+1)%ADC_AVE_SAMPLE] - 2048);
+		I_set = (30/4096)*adc_buf_set[adc_ctr];
+		I_set_temp = (30/4096)*adc_buf_set[(adc_ctr+1)%ADC_AVE_SAMPLE];
+
+		// Moving averages, in Amps
+		I_sense_av = I_sense_av + (I_sense - I_sense_temp)/ADC_AVE_SAMPLE;
+		I_set_av = I_set_av + (I_set - I_set_temp)/ADC_AVE_SAMPLE;
+
+		// ----------------------------------------- //
+
+
+		/* EYVAH DEVREM YANIYOR MODU */
+		/* (MOSFETs GG, reset the controller?) */
+		if(I_sense_av > MAX_ARMATURE_CURRENT){
+			duty = 0;
+			TIM1->CCR3 = 3600;
+			tripped = 1;
+		}
+
+		// TODO: Safety feature for generating mode switch is to be added
+		if(Gen_mode == 0){
+
+			AKIM SENSE DEĞERINE GÖRE CHOPPER AÇMA EKLE
+
+
+			/* Coefficient saturation (to be edited) */
+			if(Kp > 1)
+				Kp=1;
+			if(Kd > 1){
+				Kd=0;}
+			if(Ki > 0){
+				Ki=0;}
+
+			/* Do the soft start according to the set value*/
+			if(Soft_st == 1){
+				start_count = start_count + 1;
+				!!!!!!!
+				duty = start_count/100;
+				if(I_sense == I_start){
+					Soft_st_done = 1;
+					Soft_st = 0;
+				}
+			}
+
+			/* PID implementation */
+			else{
+				/* f = 1/(delta_t) = 72MHz/1000 = 72kHz */
+				/* SYSCLK/ARR - Write this in a better format !!!!!!!!!!!!!!!!!!!!!!!!!!  */
+
+				float prop_error = I_set_av - I_sense;
+				float der_error = (prop_error-pre_prop_error)/delta_t;
+				int_error = int_error + prop_error*delta_t;
+
+				pre_prop_error = prop_error;
+
+				/* Set the duty (only proportional implemented for now) */
+				// duty = (int)(Kp*prop_error+Kd*der_error+Ki*int_error);
+				duty = (int)(Kp*prop_error);
+
+				/* Set the duty if the motor still operates in the same region */
+				if(forward == 1 && duty > 0){
+					// nothing to do?
+					if(I_sense_av < 0){
+						// Activate chopper
+						TIM1->CCR3 = 3600; // Q5 is on (chopper)
+					}
+					else{
+						// Deactivate chopper
+						TIM1->CCR3 = 0; // Q5 is off (chopper)
+					}
+				}
+				else if(forward == 0 && duty < 0){
+					duty = -duty;
+					if(I_sense_av > 0){
+					// Activate chopper
+						TIM1->CCR3 = 3600; // Q5 is on (chopper)
+					}
+					else{
+						// Deactivate chopper
+						TIM1->CCR3 = 0; // Q5 is off (chopper)
+					}
+				}
+				// Stop the motor otherwise
+				else{
+					duty = 0;
+					Soft_st_done = 0;
+				}
+			}
+
+			/* Limit the duty */
+			if(duty > 3300){
+				duty = 3300;
+			}
+			if(duty < 0){
+				duty = 0;
+			}
+
+			// H-Bridge implementation
+			if(forward == 1){
+				TIM1->CCR1 = duty; // Q1 is on for duty
+				TIM1->CCR2 = 0; // Q3 is off, Q4 is on
+			}
+			else{
+				TIM1->CCR1 = 0; // Q1 is off, Q2 is on
+				TIM1->CCR2 = duty; // Q3 is on for duty
+			}
+		}
+
+		// If the generator mode is on
+		else{
+			// IMPORTANT: CHOPPER MOSFET IS CONNECTED TO LOW SIDE
+			TIM1->CCR3 = 3600; // Q5 is on (chopper)
+
+
+		}
+
+  /* USER CODE END TIM4_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim4);
+  /* USER CODE BEGIN TIM4_IRQn 1 */
+
+  /* USER CODE END TIM4_IRQn 1 */
 }
 
 /* USER CODE BEGIN 1 */
