@@ -48,25 +48,25 @@ float I_start = 0;
 float start_count = 0;
 
 // Define PID parameters
-uint32_t Kp = 0;
-uint32_t Kd = 0;
-uint32_t Ki = 0;
-float delta_t = 1/72000; // Control loop period, must be equal to TIM4 interrupt frequency (72KHz)
+extern uint32_t Kp;
+extern uint32_t Kd;
+extern uint32_t Ki;
+extern float delta_t; // Control loop period, must be equal to TIM4 interrupt frequency (72KHz)
 
 // Define the variables to store input values
-float I_sense = 0;	// Measured armature current
-float I_set = 0;  // Set value for armature current
-float I_sense_av = 0;  // Measured armature current average
-float I_set_av = 0; // Set value moving average
-float I_sense_temp = 0; // Defined for calculation purposes
-float I_set_temp = 0; // Defined for calculation purposes
-uint32_t Gen_mode = 0; // Generator mode boolean (active low)
-uint32_t Soft_st = 0;  // Latching soft start
-uint32_t Soft_st_done = 0; // Enable if the motor is already started
-uint32_t forward = 1;  // 1 for forward motoring, 0 for reverse motoring
+extern float I_sense;	// Measured armature current
+extern float I_set;  // Set value for armature current
+float I_sense_av;  // Measured armature current average
+extern float I_set_av ; // Set value moving average
+float I_sense_temp; // Defined for calculation purposes
+extern float I_set_temp; // Defined for calculation purposes
+extern uint32_t Gen_mode; // Generator mode boolean (active low)
+extern uint32_t Soft_st;  // Latching soft start
+extern uint32_t Soft_st_done; // Enable if the motor is already started
+extern uint32_t forward;  // 1 for forward motoring, 0 for reverse motoring
 
 // Define duty variable
-uint32_t duty = 0; // will be written to TIM1->CCR1 & TIM1->CCR2
+extern uint32_t duty; // will be written to TIM1->CCR1 & TIM1->CCR2
 
 // ADC buffer variables
 uint16_t adc_buf_set[ADC_AVE_SAMPLE];
@@ -346,7 +346,6 @@ void TIM4_IRQHandler(void)
 		// TODO: Safety feature for generating mode switch is to be added
 		if(Gen_mode == 0){
 
-			AKIM SENSE DEĞERINE GÖRE CHOPPER AÇMA EKLE
 
 
 			/* Coefficient saturation (to be edited) */
@@ -360,7 +359,6 @@ void TIM4_IRQHandler(void)
 			/* Do the soft start according to the set value*/
 			if(Soft_st == 1){
 				start_count = start_count + 1;
-				!!!!!!!
 				duty = start_count/100;
 				if(I_sense == I_start){
 					Soft_st_done = 1;

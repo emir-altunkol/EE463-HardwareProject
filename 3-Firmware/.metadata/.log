@@ -1880,3 +1880,21 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2023-01-07 13:38:33.780
 !MESSAGE Indexed 'module_test_demo' (20 sources, 141 headers) in 4.47 sec: 11,315 declarations; 51,551 references; 6 unresolved inclusions; 111 syntax errors; 1,573 unresolved names (2.4%)
+!SESSION 2023-01-08 00:14:31.687 -----------------------------------------------
+eclipse.buildId=Version 1.11.0
+java.version=11.0.16
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-01-08 00:14:38.126
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-01-08 00:14:38.185
+!MESSAGE Log4j initialized with config file C:\Users\isikemir\Desktop\Courses\EE463\TermProject\EE463-HardwareProject\3-Firmware\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-01-08 00:14:44.710
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-01-08 00:17:18.988
+!MESSAGE Indexed 'Four_Quad_DC_Motor_Driver_Firmware' (21 sources, 110 headers) in 2.33 sec: 9,264 declarations; 50,615 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.31%)

@@ -476,21 +476,19 @@ static void MX_GPIO_Init(void)
 
 uint16_t ADC1_Read()
 {
-	// Start ADC conversion
-	ADC_SoftwareStartConvCmd(ADC1, ENABLE);
-	// Wait until ADC conversion finished
-	while (!ADC_GetFlagStatus(ADC1, ADC_FLAG_EOC));
+	// Get ADC value
+	HAL_ADC_Start(&hadc1);
+	HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY);
 
-	return ADC_GetConversionValue(ADC1);
+	return HAL_ADC_GetValue(&hadc1);
 }
 uint16_t ADC2_Read()
 {
-	// Start ADC conversion
-	ADC_SoftwareStartConvCmd(ADC2, ENABLE);
-	// Wait until ADC conversion finished
-	while (!ADC_GetFlagStatus(ADC2, ADC_FLAG_EOC));
+	// Get ADC value
+	HAL_ADC_Start(&hadc2);
+	HAL_ADC_PollForConversion(&hadc2, HAL_MAX_DELAY);
 
-	return ADC_GetConversionValue(ADC2);
+	return HAL_ADC_GetValue(&hadc2);
 }
 
 /* USER CODE END 4 */

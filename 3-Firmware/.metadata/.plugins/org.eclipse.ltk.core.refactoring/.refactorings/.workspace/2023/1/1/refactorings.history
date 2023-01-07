@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;module_test_demo&apos;" deleteContents="false" description="Delete resource &apos;module_test_demo&apos;" element1="/module_test_demo" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1673126101519"/>&#x0A;<refactoring comment="Delete resource &apos;Four_Quad_DC_Motor_Driver_Firmware&apos;" deleteContents="false" description="Delete resource &apos;Four_Quad_DC_Motor_Driver_Firmware&apos;" element1="/Four_Quad_DC_Motor_Driver_Firmware" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1673126205620"/>
+</session>
