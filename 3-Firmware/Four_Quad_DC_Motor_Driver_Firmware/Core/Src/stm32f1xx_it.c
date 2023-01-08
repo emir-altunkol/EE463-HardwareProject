@@ -74,7 +74,7 @@ uint16_t adc_buf_sense[ADC_AVE_SAMPLE];
 uint16_t adc_ctr = 0;
 
 // Tripping boolean
-uint16_t tripped = 0;
+uint16_t  tripped = 0;
 
 /* USER CODE END PV */
 
@@ -250,9 +250,9 @@ void EXTI2_IRQHandler(void)
 			I_start = I_set;
 			forward = 1;
 		}
-		if(I_set < 3){
+		if(I_set < -3){
 			Soft_st = 1;
-			I_start = -I_set;
+			I_start = I_set;
 			forward = 0;
 		}
 	}
@@ -303,34 +303,38 @@ void TIM4_IRQHandler(void)
 		if(tripped == 1){
 			duty = 0;
 
-			if(I_sense_av < -0.5 || I_sense_av > 0.5){
+			if(I_sense_av > -0.1 && I_sense_av < 0.1){
 				TIM1->CCR3 = 0;
 			}
 			Soft_st = 0;
 			Soft_st_done = 2; // TRIPPED AT THIS POINT
 		}
 
-		// ------------ ADC READING ---------------- //
 		// Check if generator mode
 		Gen_mode = HAL_GPIO_ReadPin(GPIOA, GEN_MODE_Pin);
 
+		// ------------ ADC READING ---------------- //
+
 		// Read the ADCs by creating a ring buffer
+		adc_ctr = adc_ctr + 1;
 		if(adc_ctr == ADC_AVE_SAMPLE){
 			adc_ctr = 0;
-
 		}
+
+		I_sense_temp = ((float)30/2048)*(adc_buf_sense[adc_ctr]-2048);
+		I_set_temp = ((float)15/2048)*(adc_buf_set[adc_ctr]-2048);
+
 		adc_buf_sense[adc_ctr] = ADC2_Read();
 		adc_buf_set[adc_ctr] = ADC1_Read();
 
 		// Momentary values, in Amps
-		I_sense = (30/4096)*(adc_buf_sense[adc_ctr] - 2048);
-		I_sense_temp = (30/4096)*(adc_buf_sense[(adc_ctr+1)%ADC_AVE_SAMPLE] - 2048);
-		I_set = (30/4096)*adc_buf_set[adc_ctr];
-		I_set_temp = (30/4096)*adc_buf_set[(adc_ctr+1)%ADC_AVE_SAMPLE];
+		I_sense = ((float)30/2048)*(adc_buf_sense[adc_ctr] - 2048);
+		I_set = ((float)15/2048)*(adc_buf_set[adc_ctr] - 2048);
 
 		// Moving averages, in Amps
 		I_sense_av = I_sense_av + (I_sense - I_sense_temp)/ADC_AVE_SAMPLE;
 		I_set_av = I_set_av + (I_set - I_set_temp)/ADC_AVE_SAMPLE;
+
 
 		// ----------------------------------------- //
 
@@ -358,9 +362,13 @@ void TIM4_IRQHandler(void)
 
 			/* Do the soft start according to the set value*/
 			if(Soft_st == 1){
-				start_count = start_count + 1;
-				duty = start_count/100;
-				if(I_sense == I_start){
+				// No need to limit here, probably?
+				if(duty < 3300){
+					start_count = start_count + 1;
+					duty = start_count/100;
+				}
+
+				if( (I_sense - I_start < 0.1) && (I_sense - I_start > -0.1) ){
 					Soft_st_done = 1;
 					Soft_st = 0;
 				}
@@ -382,7 +390,7 @@ void TIM4_IRQHandler(void)
 				duty = (int)(Kp*prop_error);
 
 				/* Set the duty if the motor still operates in the same region */
-				if(forward == 1 && duty > 0){
+				if(forward == 1 && duty >= 0){
 					// nothing to do?
 					if(I_sense_av < 0){
 						// Activate chopper
@@ -393,7 +401,7 @@ void TIM4_IRQHandler(void)
 						TIM1->CCR3 = 0; // Q5 is off (chopper)
 					}
 				}
-				else if(forward == 0 && duty < 0){
+				else if(forward == 0 && duty <= 0){
 					duty = -duty;
 					if(I_sense_av > 0){
 					// Activate chopper

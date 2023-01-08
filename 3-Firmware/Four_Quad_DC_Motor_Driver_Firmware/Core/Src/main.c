@@ -121,14 +121,17 @@ int main(void)
   MX_TIM4_Init();
   MX_ADC2_Init();
   /* USER CODE BEGIN 2 */
-  HAL_ADC_Start_DMA(&hadc1, (uint32_t*)&I_set, ADC_BUF_LEN);
+  // HAL_ADC_Start_DMA(&hadc1, (uint32_t*)&I_set, ADC_BUF_LEN);
 
   HAL_TIM_Base_Start_IT(&htim4);
   HAL_TIM_Base_Start_IT(&htim1);
 
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
+  HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_1);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
+  HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_2);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
+  HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_3);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -136,7 +139,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+	  	  HAL_GPIO_TogglePin(GPIOA,GPIO_OUT_D_Pin);
+	  	  //I_set = ADC1_Read();
+	  	  HAL_Delay(1000);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -479,6 +484,7 @@ uint16_t ADC1_Read()
 	// Get ADC value
 	HAL_ADC_Start(&hadc1);
 	HAL_ADC_PollForConversion(&hadc1, HAL_MAX_DELAY);
+
 
 	return HAL_ADC_GetValue(&hadc1);
 }
