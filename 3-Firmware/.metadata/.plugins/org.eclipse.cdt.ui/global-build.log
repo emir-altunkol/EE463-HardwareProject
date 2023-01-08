@@ -1,150 +1,4 @@
-00:40:08 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:40:55 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:41:21 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:41:57 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:42:10 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:42:24 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:42:57 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:43:26 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:43:40 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:44:15 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:44:35 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:45:20 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:48:38 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:49:22 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:49:38 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:50:42 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:50:57 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:51:37 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-00:51:59 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18216	     24	   2352	  20592	   5070	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-01:02:00 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:139:47: error: expected ';' before '}' token
-  139 |       HAL_GPIO_TogglePin(GPIOA,GPIO_OUT_D_Pin)
-      |                                               ^
-      |                                               ;
-  140 |     /* USER CODE BEGIN 3 */
-  141 |   }
-      |   ~                                            
-make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
-"make -j16 all" terminated with exit code 2. Build might be incomplete.
-01:02:10 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+05:08:59 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
 make -j16 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -153,66 +7,142 @@ Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
 arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
 arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
    text	   data	    bss	    dec	    hex	filename
-  18276	     24	   2352	  20652	   50ac	Four_Quad_DC_Motor_Driver_Firmware.elf
+  19076	     24	   2352	  21452	   53cc	Four_Quad_DC_Motor_Driver_Firmware.elf
 Finished building: default.size.stdout
  
 Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
  
-01:02:41 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+05:09:07 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+make -j16 all 
+arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19076	     24	   2352	  21452	   53cc	Four_Quad_DC_Motor_Driver_Firmware.elf
+Finished building: default.size.stdout
+ 
+05:10:31 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
+../Core/Src/stm32f1xx_it.c:393:11: warning: unused variable 'der_error' [-Wunused-variable]
+  393 |     float der_error = (prop_error-pre_prop_error)/delta_t;
+      |           ^~~~~~~~~
+arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
+ 
+arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
+arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
+   text	   data	    bss	    dec	    hex	filename
+  19076	     24	   2352	  21452	   53cc	Four_Quad_DC_Motor_Driver_Firmware.elf
+Finished building: default.size.stdout
+ 
+Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
+ 
+05:11:11 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+make -j16 all 
+arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19076	     24	   2352	  21452	   53cc	Four_Quad_DC_Motor_Driver_Firmware.elf
+Finished building: default.size.stdout
+ 
+05:11:26 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+make -j16 all 
+arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19076	     24	   2352	  21452	   53cc	Four_Quad_DC_Motor_Driver_Firmware.elf
+Finished building: default.size.stdout
+ 
+05:11:40 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+make -j16 all 
+arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19076	     24	   2352	  21452	   53cc	Four_Quad_DC_Motor_Driver_Firmware.elf
+Finished building: default.size.stdout
+ 
+05:13:22 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+make -j16 all 
+arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19076	     24	   2352	  21452	   53cc	Four_Quad_DC_Motor_Driver_Firmware.elf
+Finished building: default.size.stdout
+ 
+05:17:01 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+make -j16 all 
+arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19076	     24	   2352	  21452	   53cc	Four_Quad_DC_Motor_Driver_Firmware.elf
+Finished building: default.size.stdout
+ 
+05:17:19 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+make -j16 all 
+arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19076	     24	   2352	  21452	   53cc	Four_Quad_DC_Motor_Driver_Firmware.elf
+Finished building: default.size.stdout
+ 
+05:22:12 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+make -j16 all 
+arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19076	     24	   2352	  21452	   53cc	Four_Quad_DC_Motor_Driver_Firmware.elf
+Finished building: default.size.stdout
+ 
+05:23:32 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+make -j16 all 
+arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19076	     24	   2352	  21452	   53cc	Four_Quad_DC_Motor_Driver_Firmware.elf
+Finished building: default.size.stdout
+ 
+05:23:45 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+make -j16 all 
+arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19076	     24	   2352	  21452	   53cc	Four_Quad_DC_Motor_Driver_Firmware.elf
+Finished building: default.size.stdout
+ 
+05:25:10 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
+../Core/Src/stm32f1xx_it.c:393:11: warning: unused variable 'der_error' [-Wunused-variable]
+  393 |     float der_error = (prop_error-pre_prop_error)/delta_t;
+      |           ^~~~~~~~~
+arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
+ 
+arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
+arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
+   text	   data	    bss	    dec	    hex	filename
+  19084	     24	   2352	  21460	   53d4	Four_Quad_DC_Motor_Driver_Firmware.elf
+Finished building: default.size.stdout
+ 
+Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
+ 
+05:33:47 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
+../Core/Src/stm32f1xx_it.c:393:11: warning: unused variable 'der_error' [-Wunused-variable]
+  393 |     float der_error = (prop_error-pre_prop_error)/delta_t;
+      |           ^~~~~~~~~
+arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
+ 
+arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
+arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
+   text	   data	    bss	    dec	    hex	filename
+  19084	     24	   2352	  21460	   53d4	Four_Quad_DC_Motor_Driver_Firmware.elf
+Finished building: default.size.stdout
+ 
+Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
+ 
+05:38:28 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
 make -j16 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  18356	     24	   2352	  20732	   50fc	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-01:02:47 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18356	     24	   2352	  20732	   50fc	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-01:06:19 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18356	     24	   2352	  20732	   50fc	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-01:11:40 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  18768	     24	   2352	  21144	   5298	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-01:11:49 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18768	     24	   2352	  21144	   5298	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-01:13:34 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
 arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
 ../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:375:11: warning: unused variable 'der_error' [-Wunused-variable]
-  375 |     float der_error = (prop_error-pre_prop_error)/delta_t;
+../Core/Src/stm32f1xx_it.c:393:11: warning: unused variable 'der_error' [-Wunused-variable]
+  393 |     float der_error = (prop_error-pre_prop_error)/delta_t;
       |           ^~~~~~~~~
 arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
@@ -220,465 +150,36 @@ Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
 arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
 arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
    text	   data	    bss	    dec	    hex	filename
-  18700	     24	   2352	  21076	   5254	Four_Quad_DC_Motor_Driver_Firmware.elf
+  19084	     28	   2348	  21460	   53d4	Four_Quad_DC_Motor_Driver_Firmware.elf
 Finished building: default.size.stdout
  
 Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
  
-01:17:57 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+05:42:19 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
 make -j16 all 
 arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
    text	   data	    bss	    dec	    hex	filename
-  18700	     24	   2352	  21076	   5254	Four_Quad_DC_Motor_Driver_Firmware.elf
+  19084	     28	   2348	  21460	   53d4	Four_Quad_DC_Motor_Driver_Firmware.elf
 Finished building: default.size.stdout
  
-01:40:23 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+05:42:47 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
 make -j16 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:375:11: warning: unused variable 'der_error' [-Wunused-variable]
-  375 |     float der_error = (prop_error-pre_prop_error)/delta_t;
-      |           ^~~~~~~~~
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
 arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
    text	   data	    bss	    dec	    hex	filename
-  18440	     24	   1944	  20408	   4fb8	Four_Quad_DC_Motor_Driver_Firmware.elf
+  19084	     28	   2348	  21460	   53d4	Four_Quad_DC_Motor_Driver_Firmware.elf
 Finished building: default.size.stdout
  
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-01:46:34 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+05:44:28 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
 make -j16 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:374:11: warning: unused variable 'der_error' [-Wunused-variable]
-  374 |     float der_error = (prop_error-pre_prop_error)/delta_t;
-      |           ^~~~~~~~~
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
 arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
    text	   data	    bss	    dec	    hex	filename
-  18700	     24	   2352	  21076	   5254	Four_Quad_DC_Motor_Driver_Firmware.elf
+  19084	     28	   2348	  21460	   53d4	Four_Quad_DC_Motor_Driver_Firmware.elf
 Finished building: default.size.stdout
  
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-01:56:43 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:374:11: warning: unused variable 'der_error' [-Wunused-variable]
-  374 |     float der_error = (prop_error-pre_prop_error)/delta_t;
-      |           ^~~~~~~~~
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  18936	     24	   2352	  21312	   5340	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-01:56:47 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+05:45:12 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
 make -j16 all 
 arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
    text	   data	    bss	    dec	    hex	filename
-  18936	     24	   2352	  21312	   5340	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-02:03:19 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:377:11: warning: unused variable 'der_error' [-Wunused-variable]
-  377 |     float der_error = (prop_error-pre_prop_error)/delta_t;
-      |           ^~~~~~~~~
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  18864	     24	   2352	  21240	   52f8	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-02:03:28 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18864	     24	   2352	  21240	   52f8	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-02:05:17 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:377:11: warning: unused variable 'der_error' [-Wunused-variable]
-  377 |     float der_error = (prop_error-pre_prop_error)/delta_t;
-      |           ^~~~~~~~~
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  18888	     24	   2352	  21264	   5310	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-02:05:20 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18888	     24	   2352	  21264	   5310	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-02:12:35 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  15064	     24	   1896	  16984	   4258	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-02:15:31 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:377:11: warning: unused variable 'der_error' [-Wunused-variable]
-  377 |     float der_error = (prop_error-pre_prop_error)/delta_t;
-      |           ^~~~~~~~~
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  18888	     24	   2352	  21264	   5310	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-02:18:34 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:377:11: warning: unused variable 'der_error' [-Wunused-variable]
-  377 |     float der_error = (prop_error-pre_prop_error)/delta_t;
-      |           ^~~~~~~~~
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  18888	     24	   2352	  21264	   5310	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-02:19:28 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:377:11: warning: unused variable 'der_error' [-Wunused-variable]
-  377 |     float der_error = (prop_error-pre_prop_error)/delta_t;
-      |           ^~~~~~~~~
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  18888	     24	   2352	  21264	   5310	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-02:24:48 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:379:11: warning: unused variable 'der_error' [-Wunused-variable]
-  379 |     float der_error = (prop_error-pre_prop_error)/delta_t;
-      |           ^~~~~~~~~
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  18900	     24	   2352	  21276	   531c	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-02:27:58 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18900	     24	   2352	  21276	   531c	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-02:42:36 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:379:11: warning: unused variable 'der_error' [-Wunused-variable]
-  379 |     float der_error = (prop_error-pre_prop_error)/delta_t;
-      |           ^~~~~~~~~
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  17084	     24	   1944	  19052	   4a6c	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-02:44:51 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:379:11: warning: unused variable 'der_error' [-Wunused-variable]
-  379 |     float der_error = (prop_error-pre_prop_error)/delta_t;
-      |           ^~~~~~~~~
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  18904	     24	   1976	  20904	   51a8	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-02:45:12 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18904	     24	   1976	  20904	   51a8	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-02:47:59 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  18896	     24	   1976	  20896	   51a0	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-02:51:06 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  17916	     24	   1976	  19916	   4dcc	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-03:09:08 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:383:11: warning: unused variable 'der_error' [-Wunused-variable]
-  383 |     float der_error = (prop_error-pre_prop_error)/delta_t;
-      |           ^~~~~~~~~
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  19172	     24	   1976	  21172	   52b4	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-03:09:42 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  19172	     24	   1976	  21172	   52b4	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-03:22:36 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:383:11: warning: unused variable 'der_error' [-Wunused-variable]
-  383 |     float der_error = (prop_error-pre_prop_error)/delta_t;
-      |           ^~~~~~~~~
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  19172	     24	   1976	  21172	   52b4	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-03:25:14 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:383:11: warning: unused variable 'der_error' [-Wunused-variable]
-  383 |     float der_error = (prop_error-pre_prop_error)/delta_t;
-      |           ^~~~~~~~~
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  19172	     24	   1976	  21172	   52b4	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-03:25:27 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  19172	     24	   1976	  21172	   52b4	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-03:31:31 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  19172	     24	   1976	  21172	   52b4	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-03:31:45 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  19172	     24	   1976	  21172	   52b4	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-03:32:38 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  19172	     24	   1976	  21172	   52b4	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-03:33:05 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  19172	     24	   1976	  21172	   52b4	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-03:36:55 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:383:11: warning: unused variable 'der_error' [-Wunused-variable]
-  383 |     float der_error = (prop_error-pre_prop_error)/delta_t;
-      |           ^~~~~~~~~
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  19188	     24	   1976	  21188	   52c4	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-03:39:37 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  19188	     24	   1976	  21188	   52c4	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-03:39:50 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  19188	     24	   1976	  21188	   52c4	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-03:46:17 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:383:11: warning: unused variable 'der_error' [-Wunused-variable]
-  383 |     float der_error = (prop_error-pre_prop_error)/delta_t;
-      |           ^~~~~~~~~
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  19272	     24	   1976	  21272	   5318	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-03:52:43 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
-../Core/Src/stm32f1xx_it.c: In function 'TIM4_IRQHandler':
-../Core/Src/stm32f1xx_it.c:383:11: warning: unused variable 'der_error' [-Wunused-variable]
-  383 |     float der_error = (prop_error-pre_prop_error)/delta_t;
-      |           ^~~~~~~~~
-arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
- 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
-   text	   data	    bss	    dec	    hex	filename
-  19272	     24	   1976	  21272	   5318	Four_Quad_DC_Motor_Driver_Firmware.elf
-Finished building: default.size.stdout
- 
-Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
- 
-03:52:59 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
-make -j16 all 
-arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
-   text	   data	    bss	    dec	    hex	filename
-  19272	     24	   1976	  21272	   5318	Four_Quad_DC_Motor_Driver_Firmware.elf
+  19084	     28	   2348	  21460	   53d4	Four_Quad_DC_Motor_Driver_Firmware.elf
 Finished building: default.size.stdout
  

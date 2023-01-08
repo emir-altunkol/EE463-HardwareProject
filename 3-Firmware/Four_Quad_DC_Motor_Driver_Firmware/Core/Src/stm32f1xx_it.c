@@ -69,8 +69,8 @@ extern uint32_t forward;  // 1 for forward motoring, 0 for reverse motoring
 extern uint32_t duty; // will be written to TIM1->CCR1 & TIM1->CCR2
 
 // ADC buffer variables
-uint16_t adc_buf_set[ADC_AVE_SAMPLE];
-uint16_t adc_buf_sense[ADC_AVE_SAMPLE];
+extern uint16_t adc_buf_set[ADC_AVE_SAMPLE];
+extern uint16_t adc_buf_sense[ADC_AVE_SAMPLE];
 uint16_t adc_ctr = 0;
 
 // Tripping boolean
@@ -86,6 +86,9 @@ extern uint16_t ADC2_Read();
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+// Initialize the goddamn buffers
+
 
 /* USER CODE END 0 */
 
@@ -327,21 +330,28 @@ void TIM4_IRQHandler(void)
 		adc_buf_sense[adc_ctr] = ADC2_Read();
 		adc_buf_set[adc_ctr] = ADC1_Read();
 
+
 		// Momentary values, in Amps
 		I_sense = ((float)30/2048)*(adc_buf_sense[adc_ctr] - 2048);
 		I_set = ((float)15/2048)*(adc_buf_set[adc_ctr] - 2048);
-
+		/*
 		// Moving averages, in Amps
 		I_sense_av = I_sense_av + (I_sense - I_sense_temp)/ADC_AVE_SAMPLE;
 		I_set_av = I_set_av + (I_set - I_set_temp)/ADC_AVE_SAMPLE;
 
+		int sum = 0;
+		int i = 0;
+		for(i = 0; i<100; i++){
+			sum = sum + adc_buf_sense[i];
+		}
+		I_sense_av = ((float)30/2048)*((float)sum/100 - 2048);
 
 		// ----------------------------------------- //
-
+		*/
 
 		/* EYVAH DEVREM YANIYOR MODU */
 		/* (MOSFETs GG, reset the controller?) */
-		if(I_sense_av > MAX_ARMATURE_CURRENT){
+		if(I_sense_av > MAX_ARMATURE_CURRENT || I_sense_av < -MAX_ARMATURE_CURRENT){
 			duty = 0;
 			TIM1->CCR3 = 3600;
 			tripped = 1;
@@ -353,8 +363,8 @@ void TIM4_IRQHandler(void)
 
 
 			/* Coefficient saturation (to be edited) */
-			if(Kp > 1)
-				Kp=1;
+			if(Kp > 200)
+				Kp=200;
 			if(Kd > 1){
 				Kd=0;}
 			if(Ki > 0){
@@ -375,7 +385,7 @@ void TIM4_IRQHandler(void)
 			}
 
 			/* PID implementation */
-			else{
+			else if(Soft_st_done == 1){
 				/* f = 1/(delta_t) = 72MHz/1000 = 72kHz */
 				/* SYSCLK/ARR - Write this in a better format !!!!!!!!!!!!!!!!!!!!!!!!!!  */
 

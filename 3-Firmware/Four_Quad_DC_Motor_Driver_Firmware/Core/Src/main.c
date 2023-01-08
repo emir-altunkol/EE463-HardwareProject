@@ -49,7 +49,7 @@ TIM_HandleTypeDef htim4;
 /* USER CODE BEGIN PV */
 
 // Define PID parameters
-uint32_t Kp = 0;
+uint32_t Kp = 50;
 uint32_t Kd = 0;
 uint32_t Ki = 0;
 float delta_t = 1/72000; // Control loop period, must be equal to TIM4 interrupt frequency (72KHz)
@@ -66,6 +66,10 @@ uint32_t forward = 1;  // 1 for forward motoring, 0 for reverse motoring
 
 // Define duty variable
 uint32_t duty = 0; // will be written to TIM1->CCR1 & TIM1->CCR2
+
+// Average Buffers
+uint16_t adc_buf_set[ADC_AVE_SAMPLE];
+uint16_t adc_buf_sense[ADC_AVE_SAMPLE];
 
 /* USER CODE END PV */
 
@@ -118,20 +122,25 @@ int main(void)
   MX_DMA_Init();
   MX_TIM1_Init();
   MX_ADC1_Init();
-  MX_TIM4_Init();
   MX_ADC2_Init();
+  MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
   // HAL_ADC_Start_DMA(&hadc1, (uint32_t*)&I_set, ADC_BUF_LEN);
-
   HAL_TIM_Base_Start_IT(&htim4);
   HAL_TIM_Base_Start_IT(&htim1);
-
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
   HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_1);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
   HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_2);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
   HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_3);
+
+
+  for(int j=0;j<ADC_AVE_SAMPLE;j++){
+  	adc_buf_set[j] = 2048;
+  	adc_buf_sense[j] =2048;
+  }
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -139,9 +148,9 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  	  HAL_GPIO_TogglePin(GPIOA,GPIO_OUT_D_Pin);
+	  	  //HAL_GPIO_TogglePin(GPIOA,GPIO_OUT_D_Pin);
 	  	  //I_set = ADC1_Read();
-	  	  HAL_Delay(1000);
+	  	  //HAL_Delay(1000);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

@@ -1,10 +1,10 @@
-03:52:59 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+05:45:12 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
 make -j16 all 
 arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
    text	   data	    bss	    dec	    hex	filename
-  19272	     24	   1976	  21272	   5318	Four_Quad_DC_Motor_Driver_Firmware.elf
+  19084	     28	   2348	  21460	   53d4	Four_Quad_DC_Motor_Driver_Firmware.elf
 Finished building: default.size.stdout
  
 
-03:52:59 Build Finished. 0 errors, 0 warnings. (took 185ms)
+05:45:12 Build Finished. 0 errors, 0 warnings. (took 226ms)
 
