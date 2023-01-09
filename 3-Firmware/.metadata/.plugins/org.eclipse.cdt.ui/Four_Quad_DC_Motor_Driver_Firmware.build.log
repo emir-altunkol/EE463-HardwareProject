@@ -1,10 +1,17 @@
-05:45:12 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
+17:29:39 **** Incremental Build of configuration Debug for project Four_Quad_DC_Motor_Driver_Firmware ****
 make -j16 all 
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc -o "Four_Quad_DC_Motor_Driver_Firmware.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\Pineapple\Desktop\damn_okul\EE463\TermProject\EE463-HardwareProject\3-Firmware\Four_Quad_DC_Motor_Driver_Firmware\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Four_Quad_DC_Motor_Driver_Firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Four_Quad_DC_Motor_Driver_Firmware.elf
+ 
 arm-none-eabi-size   Four_Quad_DC_Motor_Driver_Firmware.elf 
+arm-none-eabi-objdump -h -S  Four_Quad_DC_Motor_Driver_Firmware.elf  > "Four_Quad_DC_Motor_Driver_Firmware.list"
    text	   data	    bss	    dec	    hex	filename
-  19084	     28	   2348	  21460	   53d4	Four_Quad_DC_Motor_Driver_Firmware.elf
+  17024	     24	   2304	  19352	   4b98	Four_Quad_DC_Motor_Driver_Firmware.elf
 Finished building: default.size.stdout
  
+Finished building: Four_Quad_DC_Motor_Driver_Firmware.list
+ 
 
-05:45:12 Build Finished. 0 errors, 0 warnings. (took 226ms)
+17:29:40 Build Finished. 0 errors, 0 warnings. (took 841ms)
 

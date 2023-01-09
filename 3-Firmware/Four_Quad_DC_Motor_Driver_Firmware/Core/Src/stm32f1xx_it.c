@@ -303,18 +303,8 @@ void TIM4_IRQHandler(void)
 {
   /* USER CODE BEGIN TIM4_IRQn 0 */
 
-		if(tripped == 1){
-			duty = 0;
-
-			if(I_sense_av > -0.1 && I_sense_av < 0.1){
-				TIM1->CCR3 = 0;
-			}
-			Soft_st = 0;
-			Soft_st_done = 2; // TRIPPED AT THIS POINT
-		}
-
 		// Check if generator mode
-		Gen_mode = HAL_GPIO_ReadPin(GPIOA, GEN_MODE_Pin);
+		forward = !(HAL_GPIO_ReadPin(GPIOA, GEN_MODE_Pin));
 
 		// ------------ ADC READING ---------------- //
 
@@ -324,137 +314,59 @@ void TIM4_IRQHandler(void)
 			adc_ctr = 0;
 		}
 
-		I_sense_temp = ((float)30/2048)*(adc_buf_sense[adc_ctr]-2048);
-		I_set_temp = ((float)15/2048)*(adc_buf_set[adc_ctr]-2048);
-
-		adc_buf_sense[adc_ctr] = ADC2_Read();
 		adc_buf_set[adc_ctr] = ADC1_Read();
 
-
 		// Momentary values, in Amps
-		I_sense = ((float)30/2048)*(adc_buf_sense[adc_ctr] - 2048);
 		I_set = ((float)15/2048)*(adc_buf_set[adc_ctr] - 2048);
-		/*
-		// Moving averages, in Amps
-		I_sense_av = I_sense_av + (I_sense - I_sense_temp)/ADC_AVE_SAMPLE;
-		I_set_av = I_set_av + (I_set - I_set_temp)/ADC_AVE_SAMPLE;
 
+		// Moving averages, in Amps
 		int sum = 0;
 		int i = 0;
 		for(i = 0; i<100; i++){
-			sum = sum + adc_buf_sense[i];
+			sum = sum + adc_buf_set[i];
 		}
-		I_sense_av = ((float)30/2048)*((float)sum/100 - 2048);
+		duty = ((float)3600/4096)*((float)sum/100);
+
 
 		// ----------------------------------------- //
-		*/
-
-		/* EYVAH DEVREM YANIYOR MODU */
-		/* (MOSFETs GG, reset the controller?) */
-		if(I_sense_av > MAX_ARMATURE_CURRENT || I_sense_av < -MAX_ARMATURE_CURRENT){
-			duty = 0;
-			TIM1->CCR3 = 3600;
-			tripped = 1;
-		}
-
-		// TODO: Safety feature for generating mode switch is to be added
-		if(Gen_mode == 0){
 
 
 
-			/* Coefficient saturation (to be edited) */
-			if(Kp > 200)
-				Kp=200;
-			if(Kd > 1){
-				Kd=0;}
-			if(Ki > 0){
-				Ki=0;}
 
-			/* Do the soft start according to the set value*/
-			if(Soft_st == 1){
-				// No need to limit here, probably?
-				if(duty < 3300){
-					start_count = start_count + 1;
-					duty = start_count/100;
-				}
+//			/* Do the soft start according to the set value*/
+//			if(Soft_st == 1){
+//				// No need to limit here, probably?
+//				if(duty < 3300){
+//					start_count = start_count + 1;
+//					duty = start_count/100;
+//				}
+//
+//				if( (I_sense - I_start < 0.1) && (I_sense - I_start > -0.1) ){
+//					Soft_st_done = 1;
+//					Soft_st = 0;
+//				}
+//
 
-				if( (I_sense - I_start < 0.1) && (I_sense - I_start > -0.1) ){
-					Soft_st_done = 1;
-					Soft_st = 0;
-				}
-			}
-
-			/* PID implementation */
-			else if(Soft_st_done == 1){
-				/* f = 1/(delta_t) = 72MHz/1000 = 72kHz */
-				/* SYSCLK/ARR - Write this in a better format !!!!!!!!!!!!!!!!!!!!!!!!!!  */
-
-				float prop_error = I_set_av - I_sense;
-				float der_error = (prop_error-pre_prop_error)/delta_t;
-				int_error = int_error + prop_error*delta_t;
-
-				pre_prop_error = prop_error;
-
-				/* Set the duty (only proportional implemented for now) */
-				// duty = (int)(Kp*prop_error+Kd*der_error+Ki*int_error);
-				duty = (int)(Kp*prop_error);
-
-				/* Set the duty if the motor still operates in the same region */
-				if(forward == 1 && duty >= 0){
-					// nothing to do?
-					if(I_sense_av < 0){
-						// Activate chopper
-						TIM1->CCR3 = 3600; // Q5 is on (chopper)
-					}
-					else{
-						// Deactivate chopper
-						TIM1->CCR3 = 0; // Q5 is off (chopper)
-					}
-				}
-				else if(forward == 0 && duty <= 0){
-					duty = -duty;
-					if(I_sense_av > 0){
-					// Activate chopper
-						TIM1->CCR3 = 3600; // Q5 is on (chopper)
-					}
-					else{
-						// Deactivate chopper
-						TIM1->CCR3 = 0; // Q5 is off (chopper)
-					}
-				}
-				// Stop the motor otherwise
-				else{
-					duty = 0;
-					Soft_st_done = 0;
-				}
-			}
 
 			/* Limit the duty */
-			if(duty > 3300){
-				duty = 3300;
+			if(duty > 3600){
+				duty = 3600;
 			}
 			if(duty < 0){
 				duty = 0;
 			}
+			duty = 3600-duty;
 
 			// H-Bridge implementation
 			if(forward == 1){
 				TIM1->CCR1 = duty; // Q1 is on for duty
-				TIM1->CCR2 = 0; // Q3 is off, Q4 is on
+				TIM1->CCR2 = 3600; // Q3 is off, Q4 is on
 			}
 			else{
-				TIM1->CCR1 = 0; // Q1 is off, Q2 is on
+				TIM1->CCR1 = 3600; // Q1 is off, Q2 is on
 				TIM1->CCR2 = duty; // Q3 is on for duty
 			}
-		}
 
-		// If the generator mode is on
-		else{
-			// IMPORTANT: CHOPPER MOSFET IS CONNECTED TO LOW SIDE
-			TIM1->CCR3 = 3600; // Q5 is on (chopper)
-
-
-		}
 
   /* USER CODE END TIM4_IRQn 0 */
   HAL_TIM_IRQHandler(&htim4);

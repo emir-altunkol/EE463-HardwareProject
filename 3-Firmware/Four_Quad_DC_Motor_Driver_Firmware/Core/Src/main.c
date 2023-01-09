@@ -122,8 +122,8 @@ int main(void)
   MX_DMA_Init();
   MX_TIM1_Init();
   MX_ADC1_Init();
-  MX_ADC2_Init();
   MX_TIM4_Init();
+  MX_ADC2_Init();
   /* USER CODE BEGIN 2 */
   // HAL_ADC_Start_DMA(&hadc1, (uint32_t*)&I_set, ADC_BUF_LEN);
   HAL_TIM_Base_Start_IT(&htim4);
@@ -148,9 +148,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  	  //HAL_GPIO_TogglePin(GPIOA,GPIO_OUT_D_Pin);
-	  	  //I_set = ADC1_Read();
-	  	  //HAL_Delay(1000);
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -368,7 +366,7 @@ static void MX_TIM1_Init(void)
   sBreakDeadTimeConfig.OffStateRunMode = TIM_OSSR_DISABLE;
   sBreakDeadTimeConfig.OffStateIDLEMode = TIM_OSSI_DISABLE;
   sBreakDeadTimeConfig.LockLevel = TIM_LOCKLEVEL_OFF;
-  sBreakDeadTimeConfig.DeadTime = 36;
+  sBreakDeadTimeConfig.DeadTime = 72;
   sBreakDeadTimeConfig.BreakState = TIM_BREAK_DISABLE;
   sBreakDeadTimeConfig.BreakPolarity = TIM_BREAKPOLARITY_HIGH;
   sBreakDeadTimeConfig.AutomaticOutput = TIM_AUTOMATICOUTPUT_DISABLE;
