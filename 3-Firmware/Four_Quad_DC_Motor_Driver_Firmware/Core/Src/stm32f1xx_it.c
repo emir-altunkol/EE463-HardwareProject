@@ -246,6 +246,7 @@ void SysTick_Handler(void)
 void EXTI2_IRQHandler(void)
 {
   /* USER CODE BEGIN EXTI2_IRQn 0 */
+	/*
 	// Enable soft start mode if it is the first time
 	if(Soft_st_done == 0){
 		if(I_set > 3){
@@ -259,6 +260,7 @@ void EXTI2_IRQHandler(void)
 			forward = 0;
 		}
 	}
+	*/
 
   /* USER CODE END EXTI2_IRQn 0 */
   HAL_GPIO_EXTI_IRQHandler(SOFT_ST_Pin);
@@ -304,7 +306,9 @@ void TIM4_IRQHandler(void)
   /* USER CODE BEGIN TIM4_IRQn 0 */
 
 		// Check if generator mode
-		forward = !(HAL_GPIO_ReadPin(GPIOA, GEN_MODE_Pin));
+		if(duty == 3600){
+			forward = !(HAL_GPIO_ReadPin(GPIOA, GEN_MODE_Pin));
+		}
 
 		// ------------ ADC READING ---------------- //
 
@@ -326,7 +330,7 @@ void TIM4_IRQHandler(void)
 			sum = sum + adc_buf_set[i];
 		}
 		duty = ((float)3600/4096)*((float)sum/100);
-
+//		duty = 0;
 
 		// ----------------------------------------- //
 

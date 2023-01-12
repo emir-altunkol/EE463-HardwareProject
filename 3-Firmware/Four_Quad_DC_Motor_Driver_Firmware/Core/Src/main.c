@@ -126,6 +126,15 @@ int main(void)
   MX_ADC2_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start_IT(&htim4);
+
+  for(int j=0;j<ADC_AVE_SAMPLE;j++){
+  	adc_buf_set[j] = 2048;
+  	adc_buf_sense[j] =2048;
+  }
+
+
+  HAL_Delay(1000); // Wait a second
+
   // HAL_TIM_Base_Start_IT(&htim1);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
   HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_1);
@@ -134,11 +143,6 @@ int main(void)
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
   HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_3);
 
-
-  for(int j=0;j<ADC_AVE_SAMPLE;j++){
-  	adc_buf_set[j] = 2048;
-  	adc_buf_sense[j] =2048;
-  }
 
   /* USER CODE END 2 */
 
