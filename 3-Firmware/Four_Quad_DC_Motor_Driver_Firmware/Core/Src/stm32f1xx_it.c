@@ -349,10 +349,10 @@ void TIM4_IRQHandler(void)
 
 
 			/* Limit the duty */
-			if(duty > 3600){
+			if(duty > 3500){
 				duty = 3600;
 			}
-			if(duty < 0){
+			if(duty < 100){
 				duty = 0;
 			}
 			duty = 3600-duty;
